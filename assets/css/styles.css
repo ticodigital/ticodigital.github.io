@@ -38,6 +38,18 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Ensure the images are inline-block elements */
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle; /* Align the images correctly */
+}
+
 h1 {
     margin-bottom: 20px;
 }
