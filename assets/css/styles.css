@@ -51,7 +51,7 @@ main {
 }
 
 .highlight {
-    /*background-color: #fffbe6; /* Soft yellow background */
+    background-color: #fffbe6; /* Soft yellow background */
     border-radius: 5px; /* Slightly rounded corners */
     padding: 1px; /* Some padding for spacing */
     box-shadow: 0 0 1px rgba(0,0,0,0.1); /* Subtle shadow for depth */
