@@ -52,9 +52,9 @@ main {
 
 .highlight {
     background-color: #fffbe6; /* Soft yellow background */
-    border-radius: 1px; /* Slightly rounded corners */
-    padding: 5px; /* Some padding for spacing */
-    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px; /* Some padding for spacing */
+    box-shadow: 0 0 1px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     font-weight: bold; /* Make text bold for emphasis */
 }
 
