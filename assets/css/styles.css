@@ -44,7 +44,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 200px; /* Adjust height as needed */
+    min-height: 20px; /* Adjust height as needed */
     text-align: center;
 }
 
