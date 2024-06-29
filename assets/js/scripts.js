@@ -60,7 +60,7 @@ style.textContent = `
         nav {
             position: absolute;
             background: #333;
-            top: 60px;
+            top: 10px;
             width: 100%;
             text-align: center;
             transition: all 0.3s ease;
