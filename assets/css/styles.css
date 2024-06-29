@@ -93,7 +93,7 @@ h1 {
     position: relative; /* Required to set z-index */
 }
 
-.project-item:hover {
+.project-item, .intro, .about, .projects:hover {
     transform: scale(1.01);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
