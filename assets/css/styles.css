@@ -49,6 +49,9 @@ main {
     background: #fff;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1; /* Lower z-index to stay behind navbar */
+    position: relative; /* Required to set z-index */
 }
 
 .social-icons a {
@@ -90,7 +93,7 @@ h1 {
     position: relative; /* Required to set z-index */
 }
 
-.project-item:hover {
+.intro, .about, .projects, .project-item:hover {
     transform: scale(1.01);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
