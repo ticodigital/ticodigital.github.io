@@ -18,19 +18,51 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+}
+
+nav.open {
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+
+    nav.open a {
+        display: block;
+    }
+
+    nav {
+        padding: 10px 0;
+    }
 }
 
 main {
     padding: 20px;
-    margin_top: 50px;
-
+    margin-top: 80px; /* Adjusted for fixed header */
 }
 
 .intro, .about, .projects {
@@ -44,22 +76,22 @@ main {
 
 .social-icons a {
     margin: 0 10px;
-    text-decoration: none; /* Remove underline from links */
-    display: inline-block; /* Ensure the images are inline-block elements */
+    text-decoration: none;
+    display: inline-block;
 }
 
 .social-icons img {
     width: 40px;
     height: 40px;
-    vertical-align: middle; /* Align the images correctly */
+    vertical-align: middle;
 }
 
 .highlight {
-    background-color: #F8F8FF; /* Soft yellow background */
-    border-radius: 5px; /* Slightly rounded corners */
-    padding: 1px; /* Some padding for spacing */
-    box-shadow: 0 0 1px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    font-weight: bold; /* Make text bold for emphasis */
+    background-color: #F8F8FF;
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+    font-weight: bold;
 }
 
 h1 {
