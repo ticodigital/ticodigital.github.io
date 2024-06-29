@@ -54,6 +54,21 @@ main {
     position: relative; /* Required to set z-index */
 }
 
+.intro:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.about:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.projects:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 .social-icons a {
     margin: 0 10px;
     text-decoration: none; /* Remove underline from links */
@@ -93,7 +108,7 @@ h1 {
     position: relative; /* Required to set z-index */
 }
 
-.intro, .about, .projects, .project-item:hover {
+.project-item:hover {
     transform: scale(1.01);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
